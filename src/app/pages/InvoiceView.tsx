@@ -29,6 +29,7 @@ import {
   DialogTitle,
 } from "../components/ui/dialog";
 import { toast } from "sonner";
+import logo from "./assets/IMG-20251220-WA0002.jpg";
 
 export function InvoiceView() {
   const { id } = useParams();
