@@ -355,14 +355,16 @@ export function InvoiceView() {
           </div>
           <div>
             {" "}
-            <img
-              src={(business as any).qrCode || "IMG-20251220-WA0002.jpg"}
-              style={{ width: "50%", height: "100%", objectFit: "contain" }}
-              alt="QR Code"
-            />
             <p className="text-xs font-semibold justify-content">UPI ID</p>
             <p className="text-xs">
               {business.upiId || "ronitsoni506-1@oksbi"}
+            </p>
+          </div>
+          <div>
+            {" "}
+            <p className="text-xs font-semibold justify-content">UPI Number</p>
+            <p className="text-xs">
+              {business.upiId || "8955219443"}
             </p>
           </div>
 
